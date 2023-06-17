@@ -145,7 +145,7 @@ const Booking = () => {
             </button>
           </form>
         </div>
-        <DookingDisplay bookingsData={bookingsData}></DookingDisplay>
+        {bookingsData.length > 0 && <DookingDisplay bookingsData={bookingsData}></DookingDisplay>}
       </div>
     </>
   );
