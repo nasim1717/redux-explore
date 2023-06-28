@@ -34,7 +34,9 @@ const minusCart = (existCart, newCart, allProduct) => {
     }
     return carts;
   });
-  return addCart;
+  const deleteCart = addCart.filter((carts) => carts.cart !== 0);
+  // console.log("addcart", deleteCart);
+  return deleteCart;
 };
 
 const productReduce = (state = productInitialState, action) => {
@@ -54,7 +56,7 @@ const productReduce = (state = productInitialState, action) => {
         ...state,
         addProduct: [
           ...state.addProduct.map((cart) => {
-            if (cart.id === action.payload.id) {
+            if (cart.id === action.payload.id && cart.quantity > 0) {
               cart.quantity = parseInt(cart.quantity) - 1;
               return cart;
             }

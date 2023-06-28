@@ -1,16 +1,23 @@
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { addToCart, minusCart } from "../../redux/action";
 
 const CartDatas = ({ carts }) => {
+  const products = useSelector((state) => state.addProduct);
   const dispatch = useDispatch();
   // eslint-disable-next-line react/prop-types
   const { productName, productCategory, imgUrl, price, cart, id } = carts;
   const handleAddCart = (carts) => {
-    dispatch(addToCart(carts));
+    const product = products.find((product) => product.id === carts.id);
+    console.log("product quantiyt: ", product.quantity);
+    if (product.quantity > 0) {
+      dispatch(addToCart(carts));
+    }
   };
   const handleMinusCart = (carts) => {
     console.log("minus: ", carts.price);
-    dispatch(minusCart(carts));
+    if (carts.price > 0) {
+      dispatch(minusCart(carts));
+    }
   };
 
   return (
