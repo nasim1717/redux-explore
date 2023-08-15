@@ -1,0 +1,194 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "projectName": "Scoreboard",
+      "colorClass": "color-scoreboard"
+    },
+    {
+      "id": 2,
+      "projectName": "Flight Booking",
+      "colorClass": "color-flight"
+    },
+    {
+      "id": 3,
+      "projectName": "Product Cart",
+      "colorClass": "color-productCart"
+    },
+    {
+      "id": 4,
+      "projectName": "Book Store",
+      "colorClass": "color-bookstore"
+    },
+    {
+      "id": 5,
+      "projectName": "Blog Application",
+      "colorClass": "color-blog"
+    },
+    {
+      "id": 6,
+      "projectName": "Job Finder",
+      "colorClass": "color-jobFinder"
+    }
+  ],
+  "team": [
+    {
+      "name": "Sumit Saha",
+      "avatar": "/images/avatars/sumit.png",
+      "id": 1
+    },
+    {
+      "name": "Saad Hasan",
+      "avatar": "/images/avatars/sadh.png",
+      "id": 2
+    },
+    {
+      "name": "Akash Ahmed",
+      "avatar": "/images/avatars/akash.png",
+      "id": 3
+    },
+    {
+      "name": "Md Salahuddin",
+      "avatar": "/images/avatars/salahuddin.png",
+      "id": 4
+    },
+    {
+      "name": "Riyadh Hassan",
+      "avatar": "/images/avatars/riyadh.png",
+      "id": 5
+    },
+    {
+      "name": "Ferdous Hassan",
+      "avatar": "/images/avatars/ferdous.png",
+      "id": 6
+    },
+    {
+      "name": "Arif Almas",
+      "avatar": "/images/avatars/almas.png",
+      "id": 7
+    }
+  ],
+  "tasks": [
+    {
+      "taskName": "Task One one",
+      "teamMember": {},
+      "project": {},
+      "deadline": "2023-03-15",
+      "id": 1,
+      "status": "inProgress"
+    },
+    {
+      "taskName": "Task Two Two",
+      "teamMember": {},
+      "project": {},
+      "deadline": "2023-03-23",
+      "id": 2,
+      "status": "pending"
+    },
+    {
+      "taskName": "Task Three",
+      "teamMember": {
+        "name": "Akash Ahmed",
+        "avatar": "/images/avatars/akash.png",
+        "id": 3
+      },
+      "project": {},
+      "deadline": "2023-03-03",
+      "id": 3,
+      "status": "inProgress"
+    },
+    {
+      "taskName": "New Task Tasks",
+      "teamMember": {
+        "name": "Akash Ahmed",
+        "avatar": "/images/avatars/akash.png",
+        "id": 3
+      },
+      "project": {
+        "id": 5,
+        "projectName": "Blog Application",
+        "colorClass": "color-blog"
+      },
+      "deadline": "2023-03-11",
+      "id": 4,
+      "status": "complete"
+    },
+    {
+      "taskName": "Fix a bug bug bug bug",
+      "teamMember": {
+        "name": "Ferdous Hassan",
+        "avatar": "/images/avatars/ferdous.png",
+        "id": 6
+      },
+      "deadline": "2023-03-18",
+      "project": {
+        "id": 3,
+        "projectName": "Product Cart",
+        "colorClass": "color-productCart"
+      },
+      "id": 5,
+      "status": "pending"
+    },
+    {
+      "taskName": "Seat booking",
+      "deadline": "2028-10-07",
+      "teamMember": {
+        "name": "Akash Ahmed",
+        "avatar": "/images/avatars/akash.png",
+        "id": 3
+      },
+      "project": {
+        "id": 1,
+        "projectName": "Scoreboard",
+        "colorClass": "color-scoreboard"
+      },
+      "id": 6,
+      "status": "inProgress"
+    },
+    {
+      "taskName": "Remote job work",
+      "deadline": "2023-08-19",
+      "teamMember": {
+        "name": "Ferdous Hassan",
+        "avatar": "/images/avatars/ferdous.png",
+        "id": 6
+      },
+      "project": {
+        "id": 6,
+        "projectName": "Job Finder",
+        "colorClass": "color-jobFinder"
+      },
+      "id": 7
+    },
+    {
+      "taskName": "Findein ghob",
+      "deadline": "2023-08-12",
+      "teamMember": {
+        "name": "Saad Hasan",
+        "avatar": "/images/avatars/sadh.png",
+        "id": 2
+      },
+      "project": {
+        "id": 2,
+        "projectName": "Flight Booking",
+        "colorClass": "color-flight"
+      },
+      "id": 9
+    },
+    {
+      "taskName": "Error handleing",
+      "deadline": "2023-08-05",
+      "teamMember": {
+        "name": "Md Salahuddin",
+        "avatar": "/images/avatars/salahuddin.png",
+        "id": 4
+      },
+      "project": {
+        "id": 4,
+        "projectName": "Book Store",
+        "colorClass": "color-bookstore"
+      },
+      "id": 10
+    }
+  ]
+}

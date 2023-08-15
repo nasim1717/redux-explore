@@ -1,0 +1,278 @@
+{
+  "users": [
+    {
+      "email": "sumit@learnwithsumit.com",
+      "password": "$2a$10$CtHS.yCGS80jiuZx8yKEI.5zdiZykHF/6aPTDqpHl6ZqEFGISOHKO",
+      "name": "Sumit Saha",
+      "id": 1
+    },
+    {
+      "email": "akash@learnwithsumit.com",
+      "password": "$2a$10$CtHS.yCGS80jiuZx8yKEI.5zdiZykHF/6aPTDqpHl6ZqEFGISOHKO",
+      "name": "Akash Ahmed",
+      "id": 2
+    },
+    {
+      "email": "saad@learnwithsumit.com",
+      "password": "$2a$10$CtHS.yCGS80jiuZx8yKEI.5zdiZykHF/6aPTDqpHl6ZqEFGISOHKO",
+      "name": "Saad Hasan",
+      "id": 3
+    },
+    {
+      "email": "nasimreza1717@gmail.com",
+      "password": "$2a$10$ap0Xxs4LbM8hooqgQb8oPeJ4S3DIHoD1VBIhQwv1ADKbDVIx21L82",
+      "name": "Md Nasim",
+      "id": 4
+    },
+    {
+      "email": "nasimreza1718@gmail.com",
+      "password": "$2a$10$L7.0Ax2XY6UnT4cF5LvQdOd38gAXbVTZYroI8XrCdj4XEoxNdrpZO",
+      "name": "Md Aziz",
+      "id": 5
+    },
+    {
+      "email": "nasimreza1719@gmail.com",
+      "password": "$2a$10$.AHRgXLgyhVm7Xx/3rY8dutfxXqof3TqKQ1k1zR4HiEkr/0jlt4e2",
+      "name": "Md Nasim",
+      "id": 6
+    },
+    {
+      "email": "nasimreza1720@gmail.com",
+      "password": "$2a$10$QFWuVs05JJCnvdDA2ZfpNe7o64EDKrJhKfj8WqITD0IQEtE5KA5uO",
+      "name": "Md Nasim",
+      "id": 7
+    },
+    {
+      "email": "20211103030@bubt.edu.bd",
+      "password": "$2a$10$fBPWohozYGcdqWRMJ/RNTecmoeFVVAAqS9K1fDNad0WYd2t2WFPCu",
+      "name": "Md Nasim",
+      "id": 8
+    },
+    {
+      "email": "bala@gmail.com",
+      "password": "$2a$10$OMJF4ti6RdZdMjedwQqEl.44r2ydNEu666geyYxYDbwfbpa3tS8yW",
+      "name": "Md Nasim",
+      "id": 9
+    }
+  ],
+  "conversations": [
+    {
+      "id": 1,
+      "participants": "sumit@learnwithsumit.com-akash@learnwithsumit.com",
+      "users": [
+        {
+          "email": "sumit@learnwithsumit.com",
+          "name": "Sumit Saha",
+          "id": 1
+        },
+        {
+          "email": "akash@learnwithsumit.com",
+          "name": "Akash Ahmed",
+          "id": 2
+        }
+      ],
+      "message": "How are you?",
+      "timestamp": 1661976143678
+    },
+    {
+      "id": 2,
+      "participants": "sumit@learnwithsumit.com-saad@learnwithsumit.com",
+      "users": [
+        {
+          "email": "sumit@learnwithsumit.com",
+          "name": "Sumit Saha",
+          "id": 1
+        },
+        {
+          "email": "akash@learnwithsumit.com",
+          "name": "Saad Hasan",
+          "id": 3
+        }
+      ],
+      "message": "How are you?",
+      "timestamp": 1661976143678
+    },
+    {
+      "participant": "nasimreza1717@gmail.com-nasimreza1719@gmail.com",
+      "users": [
+        {
+          "email": "nasimreza1717@gmail.com",
+          "name": "Md Nasim",
+          "id": 4
+        },
+        {
+          "email": "nasimreza1719@gmail.com",
+          "password": "$2a$10$.AHRgXLgyhVm7Xx/3rY8dutfxXqof3TqKQ1k1zR4HiEkr/0jlt4e2",
+          "name": "Md Nasim",
+          "id": 6
+        }
+      ],
+      "message": "hello",
+      "timestamp": 1689983324034,
+      "id": 3
+    },
+    {
+      "participant": "bala@gmail.com-nasimreza1717@gmail.com",
+      "users": [
+        {
+          "email": "bala@gmail.com",
+          "name": "Md Nasim",
+          "id": 9
+        },
+        {
+          "email": "nasimreza1717@gmail.com",
+          "password": "$2a$10$ap0Xxs4LbM8hooqgQb8oPeJ4S3DIHoD1VBIhQwv1ADKbDVIx21L82",
+          "name": "Md Nasim",
+          "id": 4
+        }
+      ],
+      "message": "hwllo",
+      "timestamp": 1689983404873,
+      "id": 4
+    },
+    {
+      "participant": "bala@gmail.com-nasimreza1719@gmail.com",
+      "users": [
+        {
+          "email": "bala@gmail.com",
+          "name": "Md Nasim",
+          "id": 9
+        },
+        {
+          "email": "nasimreza1719@gmail.com",
+          "password": "$2a$10$.AHRgXLgyhVm7Xx/3rY8dutfxXqof3TqKQ1k1zR4HiEkr/0jlt4e2",
+          "name": "Md Nasim",
+          "id": 6
+        }
+      ],
+      "message": "hwllo\n",
+      "timestamp": 1689983441881,
+      "id": 5
+    },
+    {
+      "participant": "bala@gmail.com-nasimreza1719@gmail.com",
+      "users": [
+        {
+          "email": "bala@gmail.com",
+          "name": "Md Nasim",
+          "id": 9
+        },
+        {
+          "email": "nasimreza1719@gmail.com",
+          "password": "$2a$10$.AHRgXLgyhVm7Xx/3rY8dutfxXqof3TqKQ1k1zR4HiEkr/0jlt4e2",
+          "name": "Md Nasim",
+          "id": 6
+        }
+      ],
+      "message": "hello",
+      "timestamp": 1689983567649,
+      "id": 6
+    },
+    {
+      "participants": "bala@gmail.com-nasimreza1719@gmail.com",
+      "users": [
+        {
+          "email": "bala@gmail.com",
+          "name": "Md Nasim",
+          "id": 9
+        },
+        {
+          "email": "nasimreza1719@gmail.com",
+          "password": "$2a$10$.AHRgXLgyhVm7Xx/3rY8dutfxXqof3TqKQ1k1zR4HiEkr/0jlt4e2",
+          "name": "Md Nasim",
+          "id": 6
+        }
+      ],
+      "message": "hwllo",
+      "timestamp": 1689983660818,
+      "id": 7
+    },
+    {
+      "participants": "nasimreza1717@gmail.com-bala@gmail.com",
+      "users": [
+        {
+          "email": "nasimreza1717@gmail.com",
+          "name": "Md Nasim",
+          "id": 4
+        },
+        {
+          "email": "bala@gmail.com",
+          "password": "$2a$10$OMJF4ti6RdZdMjedwQqEl.44r2ydNEu666geyYxYDbwfbpa3tS8yW",
+          "name": "Md Nasim",
+          "id": 9
+        }
+      ],
+      "message": "hello how are  you",
+      "timestamp": 1690047616907,
+      "id": 8
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "conversationId": 1,
+      "sender": {
+        "email": "sumit@learnwithsumit.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "receiver": {
+        "email": "akash@learnwithsumit.com",
+        "name": "Akash Ahmed",
+        "id": 2
+      },
+      "message": "Hello",
+      "timestamp": 1661976143557
+    },
+    {
+      "id": 2,
+      "conversationId": 1,
+      "sender": {
+        "email": "akash@learnwithsumit.com",
+        "name": "Akash Ahmed",
+        "id": 2
+      },
+      "receiver": {
+        "email": "sumit@learnwithsumit.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "message": "How are you?",
+      "timestamp": 1661976143678
+    },
+    {
+      "conversationId": 8,
+      "sender": {
+        "email": "nasimreza1717@gmail.com",
+        "name": "Md Nasim",
+        "id": 4
+      },
+      "receiver": {
+        "email": "bala@gmail.com",
+        "password": "$2a$10$OMJF4ti6RdZdMjedwQqEl.44r2ydNEu666geyYxYDbwfbpa3tS8yW",
+        "name": "Md Nasim",
+        "id": 9
+      },
+      "message": "hello",
+      "timestamp": 1690047136739,
+      "id": 3
+    },
+    {
+      "conversationId": 8,
+      "sender": {
+        "email": "nasimreza1717@gmail.com",
+        "name": "Md Nasim",
+        "id": 4
+      },
+      "receiver": {
+        "email": "bala@gmail.com",
+        "password": "$2a$10$OMJF4ti6RdZdMjedwQqEl.44r2ydNEu666geyYxYDbwfbpa3tS8yW",
+        "name": "Md Nasim",
+        "id": 9
+      },
+      "message": "hello how are  you",
+      "timestamp": 1690047616907,
+      "id": 4
+    }
+  ]
+}

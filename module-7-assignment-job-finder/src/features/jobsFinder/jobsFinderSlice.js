@@ -40,6 +40,7 @@ const jobsFinderSlice = createSlice({
       state.jobName = action.payload;
     },
     sort: (state, action) => {
+      console.log(`action payload-->${action.payload}`)
       state.sort = action.payload;
     },
     searchJob: (state, action) => {
@@ -55,6 +56,7 @@ const jobsFinderSlice = createSlice({
       .addCase(fetchJobs.fulfilled, (state, action) => {
         state.isLoading = false;
         state.isError = false;
+        console.log(`josbs--->${action.payload}`)
         state.jobs = action.payload;
       })
       .addCase(fetchJobs.rejected, (state, action) => {
@@ -70,6 +72,7 @@ const jobsFinderSlice = createSlice({
       .addCase(createJobs.fulfilled, (state, action) => {
         state.isLoading = false;
         state.isError = false;
+
         state.jobs.push(action.payload);
       })
       .addCase(createJobs.rejected, (state, action) => {
@@ -86,6 +89,7 @@ const jobsFinderSlice = createSlice({
         state.isLoading = false;
         state.isError = false;
         const index = state.jobs.findIndex((job) => job.id === action.payload.id);
+        console.log(`jobs change-->${action.payload}`)
         state.jobs[index] = action.payload;
       })
       .addCase(changeJobs.rejected, (state, action) => {
